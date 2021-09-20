@@ -9,6 +9,7 @@
   --primary-dark:rgba(52,58,64);
   --primary-red:#ef4035;
   --primary-hover-red:#f33501;
+  --primary-black:#000000;
 }
 
 body{
@@ -406,4 +407,27 @@ textarea.form-control{
   .contacts p{
     padding: 0 0 0.4rem;
   }
+}
+
+/******************************************* FOOTER ******************************************************/
+
+.footer{
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a{
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p{
+  margin-bottom: 0;
 }
