@@ -42,18 +42,17 @@ const Contacts = () => {
         <form onSubmit={handleSubmit(onSubmit)}>
         <div className="row">
         <div className="col-md-6 col-xs-12">
-        <input className="form-control" type="text" placeholder="Name" name="name" 
-        />
+        <input className="form-control" type="text" placeholder="Name" name="name" required/>
         <div className="line"></div>
-        <input className="form-control" placeholder="Phone Number " name="phone" />
+        <input className="form-control" placeholder="Phone Number " name="phone"  required/>
         <div className="line"></div>
-        <input className="form-control" type="email" placeholder="Email" name="email" />
+        <input className="form-control" type="email" placeholder="Email" name="email"  required/>
         <div className="line"></div>
-        <input className="form-control" type="text" placeholder="Subject" name="subject" />
+        <input className="form-control" type="text" placeholder="Subject" name="subject"  required/>
         <div className="line"></div>
         </div>
         <div className="col-md-6 col-xs-12">
-        <textarea className="form-control" type="text" placeholder="Description" name="description" ></textarea>
+        <textarea className="form-control" type="text" placeholder="Description" name="description" required></textarea>
         <div className="line"></div>
         <button className="btn-main-offer contact-btn" type="submit">Contact Me</button>
         </div>
