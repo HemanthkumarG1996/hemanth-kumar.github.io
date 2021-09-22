@@ -33,7 +33,7 @@ const Contacts = () => {
           }).catch(err=> console.error(`Something went Wrong ${err}`));
       };
     return (
-        <div className="contacts">
+        <div id="contacts" className="contacts">
         <div className="text-center">
            <h1>Contact me</h1>
            <p>Please fill out the form and describe your reason for contact, i will contact you as soon as possible.</p> 
