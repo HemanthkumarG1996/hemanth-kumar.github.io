@@ -431,3 +431,66 @@ textarea.form-control{
 .footer p{
   margin-bottom: 0;
 }
+
+/******************************************* EDUCATION ******************************************************/
+
+.education{
+  background: var(--primary-grey);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.education h1{
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--primary-orange);
+  font-size: clamp(1.25rem , 4vw , 1.875rem);
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+  margin-top: 2.375rem;
+}
+
+.education summary{
+  font-size: 1.25rem;
+  font-weight: 600;
+  background: var(--primary-white);
+  color:var(--primary-black);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+
+.education p{
+  color: var(--primary-black);
+  text-transform: uppercase;
+  text-align: left;
+}
+  
+details[open] summary ~ *{
+  animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep{
+  0% {opacity: 0; margin-top: -10px}
+  100% {opacity: 1; margin-top: 0px}
+}
+
+details > summary::after{
+  position: absolute;
+  content:"+";
+  right:1.25rem;
+}
+
+details[open] > summary::after{
+  position: absolute;
+  content:"-";
+  right:1.25rem;
+}
+
+details > summary ::-webkit-details-marker{
+  display: none;
+}
