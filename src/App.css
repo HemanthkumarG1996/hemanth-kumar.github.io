@@ -435,7 +435,7 @@ textarea.form-control{
 /******************************************* EDUCATION ******************************************************/
 
 .education{
-  background: var(--primary-grey);
+  background: var(--primary-black);
   color: var(--primary-dark-grey);
   padding: 3rem;
 }
@@ -444,7 +444,6 @@ textarea.form-control{
   text-transform: uppercase;
   text-align: center;
   color: var(--primary-orange);
-  font-size: clamp(1.25rem , 4vw , 1.875rem);
   line-height: 1.2;
   margin-bottom: 2.5rem;
   margin-top: 2.375rem;
@@ -465,7 +464,7 @@ textarea.form-control{
 }
 
 .education p{
-  color: var(--primary-black);
+  color: var(--primary-white);
   text-transform: uppercase;
   text-align: left;
 }
