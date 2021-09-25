@@ -35,6 +35,8 @@ const Footer = () => {
         <div className="col">
         <a className="footer-nav">Experience</a>
         <br/>
+        <a className="footer-nav">Education</a>
+        <br />
         <a className="footer-nav">Contacts</a>
         <br/>
         </div>
